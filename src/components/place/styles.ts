@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native";
-import { colors,fontFamily } from "@/styles/theme";
+import { StyleSheet } from "react-native"
+import { colors, fontFamily } from "@/styles/theme"
 
 export const s = StyleSheet.create({
   container: {
@@ -9,15 +9,15 @@ export const s = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.gray[200],
     borderRadius: 12,
-    flexDirection: 'row',
+    flexDirection: "row",
     gap: 16,
-    alignItems: 'center'
+    alignItems: "center",
   },
   image: {
-      width: 116,
-      height: 104,
-      backgroundColor: colors.gray[200],
-      borderRadius: 8,
+    width: 116,
+    height: 104,
+    backgroundColor: colors.gray[200],
+    borderRadius: 8,
   },
   content: {
     flex: 1,
@@ -32,16 +32,15 @@ export const s = StyleSheet.create({
     fontSize: 12,
     fontFamily: fontFamily.regular,
     color: colors.gray[500],
-
   },
   footer: {
-    flexDirection: 'row',
+    flexDirection: "row",
     gap: 7,
-    marginTop: 10
+    marginTop: 10,
   },
   tickets: {
     fontSize: 12,
     fontFamily: fontFamily.regular,
     color: colors.gray[400],
-  }
+  },
 })
